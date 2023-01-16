@@ -1,0 +1,15 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("+1 jump hack fire man", "DarkTheme")
+
+local Tab = Window:NewTab("main")
+
+local Section = Tab:NewSection("Teleports")
+
+Section:NewButton("Teleport 1", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1.56931424, 1872.64624, 129.317947, -0.993926466, -3.38923578e-09, 0.110046171, -8.77857609e-09, 1, -4.84889533e-08, -0.110046171, -4.91605014e-08, -0.993926466)
+end)
+
+Section:NewButton("teleport to the last place", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(153626.781, 102660.023, 294.401154, -0.0703151599, -4.57982878e-08, -0.997524798, 8.37494341e-08, 1, -5.18153946e-08, 0.997524798, -8.71855477e-08, -0.0703151599)
+    end)
